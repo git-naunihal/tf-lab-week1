@@ -5,7 +5,6 @@ provider "aws" {
 resource "aws_instance" "test1example" {
   ami = "ami-0b72821e2f351e396"
   instance_type = "t2.micro"
-  key_name = "AKIAQIJRSMDKDCT7ARCZ" 
 
 #  network_interface {
 #    device_index = 0
